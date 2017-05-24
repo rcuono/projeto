@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Página inicial MB</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+    /* Remove the navbar's default rounded borders and increase the bottom margin */ 
+    
+      body{
+          background-color:#f2f2f2;
+      }
+    .navbar {
+      margin-bottom: 50px;
+      border-radius: 0;
+      background-color: #223040;
+    }
+    
+    /* Remove the jumbotron's default bottom margin */ 
+     .jumbotron {
+      margin-bottom: 0;
+      background-color: #f2f2f2;
+    }
+   
+    /* Add a gray background color and some padding to the footer */
+    footer {
+      background-color: #223040;
+      color: aliceblue;
+      padding: 25px;
+    }
+      
+      
+      .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    color: #fff;
+}
+      
+  </style>
+</head>
+<body>
+
+
+
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="login.html">MB</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li><a href="loginRealizado.html">Home</a></li>
+        <li class="active"><a href="bateria.html">Baterias</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span class="glyphicon glyphicon-user"></span> Empresa S/A</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+    
+<div class="container text-center">
+    <a href="login.html"><img src="mb.svg" class="img-circle" alt="mb-logo" width="304" height="236"></a>
+  <h2>Informações das Baterias</h2>
+            <br>
+            <br>
+<div class="table-responsive">    
+  <table class="table table-hover">
+    <thead>
+      <tr>
+        <th>Serial</th>
+        <th>DataLeitura</th>
+        <th>Tensão</th>
+        <th>ResInterna</th>
+        <th>temperatura</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>MB14036421</td>
+        <td>2017-05-23 19:14:53</td>
+        <td>13.82</td>
+        <td>0.69</td>
+        <td>29.04</td>
+      </tr>
+        
+      <tr>
+        <td>MB14036421</td>
+        <td>2017-05-23 19:24:55</td>
+        <td>12.13</td>
+        <td>0.56</td>
+        <td>31.09</td>
+      </tr>
+        
+      <tr>
+        <td>MB14036421</td>
+        <td>2017-05-23 19:34:57</td>
+        <td>11.04</td>
+        <td>0.57</td>
+        <td>27.96</td>
+      </tr>
+        
+        <tr>
+        <td>MB14036421</td>
+        <td>2017-05-23 19:44:59</td>
+        <td>13.42</td>
+        <td>0.6</td>
+        <td>29.95</td>
+      </tr>
+        
+        <tr>
+        <td>MB14036421</td>
+        <td>2017-05-23 19:55:00</td>
+        <td>11</td>
+        <td>0.64</td>
+        <td>29.51</td>
+      </tr>
+        
+         <tr>
+        <td>MB14036421</td>
+        <td>2017-05-23</td>
+        <td>12.33</td>
+        <td>0.74</td>
+        <td>28.66</td>
+      </tr>
+        
+    </tbody>
+  </table>
+ </div>
+</div>
+
+<footer class="container-fluid text-center">
+  <p>MB&trade; Copyright &copy; TODOS OS DIREITOS RESERVADOS 2017</p>      
+</footer>
+
+</body>
+</html>
